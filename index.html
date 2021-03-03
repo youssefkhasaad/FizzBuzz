@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>FizzBuzz</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel='stylesheet' href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+
+      <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #353636">
+          <a class="navbar-brand" href="index.html">FizzBuzz</a>
+          <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+              aria-expanded="false" aria-label="Toggle navigation"></button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+              <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="index.html"></i>Solve </a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="code.html"></i>Code</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://youssef-asaad.netlify.app/" target = "_blank"></i>Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/youssefkhasaad" target="_blank"><i class=""></i>GitHub</a>
+                </li>
+              </ul>
+          </div>
+      </nav>
+
+      <div class="container text-center pt-5">
+          <h5>This program will display the numbers from 1 to 100.<br> For multiples of three print "Fizz" instead of the number<br> and for the multiples of 5 print "Buzz" .<br>  For numbers which are multiples of both 3 and 5 print "FizzBuzz". </h5>  
+        <h5><span class="FizzBuzz"></span> </span></h5>
+          <hr>
+            <div class="row">
+              <div class="col-3 offset-3">
+                  <input class="form-control" id="input1" placeholder="First number" type="number" value="3" />
+              </div>
+              <div class="col-3">
+                 <input class="form-control" id="input2" placeholder="Second number" type="number" value="5" />
+              </div>
+          </div>
+          <br>
+              <div class="row">
+                  <div class="col-6 offset-3 form-group">
+                      <button class="btn btn btn-secondary btnWide" id="fizzButton">FizzBizz!</button>
+                  </div>
+                  <div class="col-6 offset-3 form-group">
+                    <button id=btnClear class="btn btn-secondary btnWide">Clear</button>
+                </div>
+              </div> 
+              <!--Add Table-->            
+              <div class="row">
+                  <div class="col">
+                      <table id="fizzbuzzTable" class="table table-responsive-lg table-striped table-bordered mb-0 mt-3" tr style="background-color: lightblue strip">
+                      <thead id="tableheader">
+                          <tr><th colspan="5"><h5><strong>FizzBuzz Results!</strong></h5></th></tr>
+                          <!-- <th></th>
+                          <th></th>
+                          <th></th>
+                          <th></th>
+                          <th></th> -->
+                        </thead>
+                        <tbody id="resultBody">
+                              <!-- <th>{{output}}</th>
+                              <th>{{output}}</th>
+                              <th>{{output}}</th>
+                              <th>{{output}}</th>
+                              <th>{{output}}</th> -->
+                        
+                        </tbody>
+                        </table>
+                  </div>
+              </div>
+          </div>
+   
+
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/fizzbuzz.js"></script>
+  </body>
+</html>
